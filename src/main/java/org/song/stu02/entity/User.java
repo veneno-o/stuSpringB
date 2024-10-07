@@ -1,4 +1,4 @@
-package org.song.stu02.pojo;
+package org.song.stu02.entity;
 
 import lombok.Data;
 
@@ -6,5 +6,5 @@ import lombok.Data;
 public class User {
     private int id;
     private String name;
-    private int age;
+    private String address;
 }
